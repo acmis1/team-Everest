@@ -120,3 +120,25 @@ a {
     transition: transform 0.4s ease-out, opacity 0.4s ease-out;
   }
 
+
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: purple;
+  }
+  
+  
+  @keyframes scrollbar-animation {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    animation: scrollbar-animation 0.5s forwards;
+  }
+  
+  
