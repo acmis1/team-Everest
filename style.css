@@ -90,7 +90,11 @@ body {
     bottom: 56px; 
     left: 0;
     background-color:#FFD063;
-  }  
+  }
+
+  html, body {
+    cursor: none;
+  }
   
 a {
     cursor: url('https://www.cursor.cc/cursor3d/25539.png'), auto;
