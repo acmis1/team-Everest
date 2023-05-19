@@ -295,3 +295,43 @@ a {
       border-left: 10px solid #646cbc;
   }
   
+
+  .career_plan-desc{
+      display: flex;
+      align-items: center;
+  }
+  
+  .career_plan-desc h5{
+      margin: 0 30px;
+  }
+  
+  .career_row{
+      display:block;
+      color: black;
+      padding: 20px 10px;
+      margin: 20px 10px;
+      background: #ffffff;
+      border-radius: 10px;
+      transition: all .30s;
+      border-radius: 10px;
+      transition: .30s ease;
+  }
+  
+  .career_plan-desc p{
+      flex: 1;
+      margin-bottom: 20px;
+  }
+  
+  .career_plan-info{
+      margin-bottom: 20px;
+  }
+  
+  .career_row:hover{
+      cursor: pointer;
+      transform: translateX(5px);
+  }
+  
+  .career_row h4{
+      color: #646cbc;;
+  }
+  
