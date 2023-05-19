@@ -5,6 +5,30 @@
     font-family: 'Poppins', sans-serif
   }
 
+   
+  @font-face {
+    font-family: 'Gliker-SemiBoldSemiCondensed';
+    src: url('https://aurabora.com/cdn/shop/t/189/assets/font-Gliker-SemiBoldSemiCondensed.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Space Mono';
+    src: url('https://aurabora.com/cdn/shop/t/189/assets/font-SpaceMono-Regular.woff2') format('worf')
+  }
+  
+  
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+ 
+
 body {
   color:black;
 }
