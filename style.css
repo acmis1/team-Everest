@@ -92,4 +92,27 @@ body {
     background-color:#FFD063;
   }  
   
+a {
+    cursor: url('https://www.cursor.cc/cursor3d/25539.png'), auto;
+  }
+  
+  .cursor-img {
+    position: fixed;
+    pointer-events: none;
+    width: 30px;
+    height: 30px;
+    background-image: url('https://www.cursor.cc/cursor3d/25539.png');
+    background-size: cover;
+    transition: transform 0.1s ease-out;
+    z-index: 9999;
+  }
+  
+  .cursor-trail {
+    position: absolute;
+    pointer-events: none;
+    background-color: #ff3366;
+    border-radius: 50%;
+    opacity: 0.4;
+    transition: transform 0.4s ease-out, opacity 0.4s ease-out;
+  }
 
