@@ -46,3 +46,50 @@ body {
   }
   
 
+  .navbar_list {
+    display: flex;
+  }
+  
+  .navbar_list li {
+    padding: 10px 20px;
+    position: relative;
+  }
+  
+  .navbar_list a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+  }
+    
+  ul li {
+    cursor: pointer;
+    position: relative;
+    margin: 0 1.4em;
+    padding: 1.2em 1.6em;
+    transition: all 0.2s;
+    transition-delay: 0.2s;
+    background-color: white;
+  }
+  
+  ul li::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: black;
+    transition: all  0.2s;
+  }
+
+  ul li:hover {
+    background-color: #FFD063;
+  }
+
+  ul li:hover::before {
+    bottom: 56px; 
+    left: 0;
+    background-color:#FFD063;
+  }  
+  
+
