@@ -191,4 +191,73 @@ a {
   
   }
   
+  .team_profile .heading h2,
+  .team_profile .heading h3 {
+    color: #234E32;
+  }
+  
+  .team_profile{
+      background-color: #F2E9D7;
+      padding: 120px 16%;
+  }
+  
+
+  .heading{
+      color: #234E32;
+      text-align: center;
+      font-size: 50px;
+  }
+  
+  .heading h5{
+      font-size: 20px;
+      font-weight:  400;
+  }
+  
+  .team_profile_content{
+      color: black;
+      display: inline-grid;
+      grid-template-columns: repeat(2,minmax(370px,auto));
+      grid-gap: 2rem;
+      align-items: center;
+      margin-top: 4.0rem;
+      width: 100%;
+      grid-row: 1/ span 2
+  }
+  
+  .box{
+      color: purple;
+      font-size: 2.8rem;
+      margin-bottom: 18px;
+      background: lightpink;
+      cursor: pointer;
+      transition: all .35s;
+      border-radius: 5px;
+      padding: 45px 30px;
+      display: inline-flex;
+      max-width: 600px;
+      max-height: 600px;
+      flex-direction: column;
+  }
+  
+  .box h4{
+      font-size: 25px;
+      font-weight: 600;
+      margin-bottom: 15px;
+  }
+  
+  .box h5{
+      font-size: 19px;
+      font-weight: 400;
+      margin-bottom: 15px;
+  }
+  
+  .box p{
+      font-size: 16px;
+      color: black;
+      text-align: justify;
+  }
+  
+  .box:hover{
+      box-shadow: 0px 30px 30px rgb(55 7 23 /7%);
+  }
   
