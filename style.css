@@ -166,63 +166,73 @@ a {
   }
   
 .container {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://aurabora.com/cdn/shop/files/GE_HeroLandscape.svg?v=1682974574&width=1800");
     background-color: #FFE2E2;
-    height: 100vh;
+    height: 120vh;
     width: 100%;
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
     align-items: center;
-    padding: 120px 16%;
-  
   }
   
   .container h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 120px;
     font-size: 5rem;
     color: #234E32;
     font-family: 'Gliker-SemiBoldSemiCondensed', Arial, sans-serif;
-    margin-bottom: 20px;
-    opacity: 0;
     animation: fadeInAnimation 1s ease-in-out forwards;
   }
+
   .container p{
-    font-size: 2rem;
-    font-family: 'Space Mono', Arial, sans-serif;
-  
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: 'SpaceMono-Regular', Arial, sans-serif;
+    padding-bottom: 10px;
+    padding-left: 16%;
+    padding-right:16%;
   }
   
-  .team_profile .heading h2,
-  .team_profile .heading h3 {
-    color: #234E32;
-  }
   
   .team_profile{
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("https://aurabora.com/cdn/shop/files/gml-hero-landscape.svg?v=1682973672&width=1800");
       background-color: #F2E9D7;
-      padding: 120px 16%;
   }
   
 
-  .heading{
-      color: #234E32;
-      text-align: center;
-      font-size: 50px;
-  }
-  
-  .heading h5{
-      font-size: 20px;
-      font-weight:  400;
-  }
-  
-  .team_profile_content{
-      color: black;
-      display: inline-grid;
-      grid-template-columns: repeat(2,minmax(370px,auto));
-      grid-gap: 2rem;
-      align-items: center;
-      margin-top: 4.0rem;
-      width: 100%;
-      grid-row: 1/ span 2
-  }
+.team_profile .heading h3{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+  font-family: 'Gliker-SemiBoldSemiCondensed', Arial, sans-serif;
+  color: #E6EBAF;
+  font-size: 5rem;
+  padding-bottom: 10px;
+  padding-top: 80px;
+}
+
+.team_profile .heading h5{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+  font-family: 'Gliker-SemiBoldSemiCondensed', Arial, sans-serif;
+  color: #E6EBAF;
+  font-size: 2rem;
+  padding-bottom: 50px;
+}
+
+.team_profile_content{
+    height: 125vh;
+    width: 100%;
+    /* position: relative; */
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
   
   .box{
       color: purple;
