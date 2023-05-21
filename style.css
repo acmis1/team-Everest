@@ -272,8 +272,29 @@ a {
   
 
   .group_reflection{
-    background-color: #A4D3E5;
+    background-color: #FFE2E2;
     padding: 120px 16%;
+}
+
+.heading{
+  text-align: center;
+}
+
+.group_reflection .heading h3{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+  font-family: 'Gliker-SemiBoldSemiCondensed', Arial, sans-serif;
+  color: #FF8179;
+  font-size: 5rem;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.group_reflection .heading h5{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+  font-family: 'Gliker-SemiBoldSemiCondensed', Arial, sans-serif;
+  color: #FF8179;
+  font-size: 2rem;
+  padding-bottom: 50px;
 }
 
   .row{
@@ -287,13 +308,15 @@ a {
   }
   
   .row h4{
+      font-family: 'Gliker-SemiBoldSemiCondensed', Arial, sans-serif;
       font-size: 25px;
       font-weight: 600;
       margin-bottom: 15px;
-      color: #646cbc;
+      color: #FF8179;
   }
   
   .row p{
+      font-family:'SpaceMono-Regular', Arial, sans-serif;
       font-size: 16px;
       font-weight: 400;
       margin-bottom: 15px;
