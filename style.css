@@ -42,6 +42,8 @@ body {
     z-index: 9999;
     position: fixed;
   }
+
+/* Navigation bar*/
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -116,6 +118,7 @@ body {
     background-color:#FFD063;
   }
 
+/* Custom cursor*/
   html, body {
     cursor: none;
   }
@@ -355,32 +358,17 @@ a {
     margin-bottom: 20px;
 }
 
-  .career_plan-desc{
-      display: flex;
-      align-items: center;
-  }
-  
-  .career_plan-desc h5{
-      margin: 0 30px;
-  }
-  
+
   .career_row{
       display:block;
-      color: black;
       padding: 20px 10px;
       margin: 20px 10px;
-      background: #ffffff;
-      border-radius: 10px;
-      transition: all .30s;
+      background: #DAFBDA;
       border-radius: 10px;
       transition: .30s ease;
   }
   
-  .career_plan-desc p{
-      flex: 1;
-      margin-bottom: 20px;
-  }
-  
+ 
   .career_plan-info{
       margin-bottom: 20px;
   }
@@ -391,6 +379,6 @@ a {
   }
   
   .career_row h4{
-      color: #646cbc;;
+      font-family: 'Gliker-SemiBoldSemiCondensed', Arial, sans-serif;
   }
   
